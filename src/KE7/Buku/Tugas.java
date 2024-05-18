@@ -60,7 +60,6 @@ public class Tugas {
     public void setTahun_Terbit(int tahun_Terbit) {
         this.tahun_Terbit = tahun_Terbit;
     }
-
     
    
 }
