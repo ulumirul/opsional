@@ -39,11 +39,12 @@ public class TokoBuku {
             Scanner sc3 = new Scanner(System.in);
             String penerbit = sc3.nextLine();
             
-            System.out.print("Massukkan Kategory: ");
+            System.out.print("Massukkan Kategory \n 1. su untuk semua umur \n 2. r untuk remaja"
+                    + " \n 3. d untuk dewasa \n 4. a untuk anak \n : ");
             Scanner sc4 = new Scanner(System.in);
             String kategory = sc4.nextLine();
             
-             System.out.print("Massukkan thun terbit: ");
+             System.out.print("Massukkan tahun terbit: ");
             Scanner sc5 = new Scanner(System.in);
             int tahun_Terbit = sc5.nextInt();
             
