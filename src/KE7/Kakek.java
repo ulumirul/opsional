@@ -2,19 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package inheriyance;
+package KE7;
 
 /**
  *
  * @author ~~ULUM~~
  */
-public class HtungLuas {
+public class Kakek {
 
-    int Panjang = 10;
-    int Lebar = 5;
-    
-    public void luas(){
-        System.out.println("Luas = "+Panjang*Lebar);
+    public void cetak(){
+        System.out.println("ini kakek");
     }
     
 }
