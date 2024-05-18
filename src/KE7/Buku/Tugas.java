@@ -21,6 +21,46 @@ public class Tugas {
         this.tahun_Terbit = tahun_Terbit;
     }
 
+    public String getJudul() {
+        return judul;
+    }
+
+    public void setJudul(String judul) {
+        this.judul = judul;
+    }
+
+    public String getNama_pengarang() {
+        return nama_pengarang;
+    }
+
+    public void setNama_pengarang(String nama_pengarang) {
+        this.nama_pengarang = nama_pengarang;
+    }
+
+    public String getPenerbit() {
+        return penerbit;
+    }
+
+    public void setPenerbit(String penerbit) {
+        this.penerbit = penerbit;
+    }
+
+    public String getKategori() {
+        return kategori;
+    }
+
+    public void setKategori(String kategori) {
+        this.kategori = kategori;
+    }
+
+    public int getTahun_Terbit() {
+        return tahun_Terbit;
+    }
+
+    public void setTahun_Terbit(int tahun_Terbit) {
+        this.tahun_Terbit = tahun_Terbit;
+    }
+
     
    
 }
