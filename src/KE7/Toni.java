@@ -22,6 +22,6 @@ public class Toni extends Kakek implements AyahInterface, IbuInterface {
        super.cetak();
     }
 
-    
+  
     
 }
