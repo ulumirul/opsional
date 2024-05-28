@@ -221,16 +221,16 @@ public class JTableTugas extends javax.swing.JFrame {
                         + "Biodata.txt");
                 
                 //buat file jika tidak ditemukan
-//                if(!file.exists()){ 
-//                    file.createNewFile();
-//                }
-                  FileWriter fw = new FileWriter(file.getAbsoluteFile());
+                if(!file.exists()){ 
+                    file.createNewFile();
+                }
+//                  FileWriter fw = new FileWriter(file.getAbsoluteFile());
 //                  pake true di parameternya untuk membuatnya mengaktifkan append
-//                FileWriter fw = new FileWriter(file, true);
+                FileWriter fw = new FileWriter(file, true);
                 try (BufferedWriter bw = new BufferedWriter(fw)) {
                     bw.write(content);
 //                    untuk membuat line baru
-//                    bw.newLine();
+                    bw.newLine();
                       bw.close();
                 }
                 

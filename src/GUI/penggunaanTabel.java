@@ -17,10 +17,10 @@ import javax.swing.table.DefaultTableModel;
  */
 public class penggunaanTabel extends javax.swing.JFrame {
     
-    String hColumn[] = {"NIM", "NAMA", "GENDER"};
-    String isi[][] ={{"1", "Joni", "L"},{"2", "Ani", "P"},{"3", "Roma", "L"}};
-    
-    DefaultTableModel dtModel;
+//    String hColumn[] = {"NIM", "NAMA", "GENDER"};
+//    String isi[][] ={{"1", "Joni", "L"},{"2", "Ani", "P"},{"3", "Roma", "L"}};
+//    
+//    DefaultTableModel dtModel;
 
 //    Inisialisasi data model
     String filename = "data.txt";
@@ -155,8 +155,8 @@ public class penggunaanTabel extends javax.swing.JFrame {
     private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 
-    private void intTable() {
-        dtModel = new DefaultTableModel(isi,hColumn);
-        jTable1.setModel(dtModel);
-    }
+//    private void intTable() {
+//        dtModel = new DefaultTableModel(isi,hColumn);
+//        jTable1.setModel(dtModel);
+//    }
 }
