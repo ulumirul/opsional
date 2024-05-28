@@ -8,7 +8,7 @@ package GUI;
  *
  * @author SaifulNB
  */
-public class Data {
+public class Biodata {
     int nomor;
     String nama;
     String gender;
@@ -36,8 +36,4 @@ public class Data {
     public void setGender(String gender) {
         this.gender = gender;
     }
-
-    
-    
-    
 }

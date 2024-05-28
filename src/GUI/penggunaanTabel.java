@@ -25,8 +25,8 @@ public class penggunaanTabel extends javax.swing.JFrame {
 //    Inisialisasi data model
     String filename = "data.txt";
     String Line = null;
-    ArrayList<Data> listData = new ArrayList<>();
-    ModelData modelData = new ModelData();
+    ArrayList<Biodata> listData = new ArrayList<>();
+    ModelBiodata modelData = new ModelBiodata();
     
     /**
      * Creates new form penggunaanTabel
@@ -98,7 +98,7 @@ public class penggunaanTabel extends javax.swing.JFrame {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(file));
         try {
             while ((Line = bufferedReader.readLine()) != null) {
-                Data data = new Data();
+                Biodata data = new Biodata();
                 String temp[] = Line.split(";");
                 data.setNomor(Integer.parseInt(temp[0]));
                 data.setNama(temp[1]);

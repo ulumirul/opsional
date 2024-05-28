@@ -10,14 +10,14 @@ import javax.swing.table.AbstractTableModel;
 
 /**
  *
- * @author SaifulNB
+ * @author ulum
  */
-public class ModelData extends AbstractTableModel{
+public class ModelBiodata extends AbstractTableModel{
 
-    public List<Data> listData = new ArrayList<>();
+    public List<Biodata> listData = new ArrayList<>();
     public String[] colName = {"ID","Nama","Gender"};
     
-    public void setListData(List<Data> listData){
+    public void setListData(List<Biodata> listData){
         this.listData = listData;
         fireTableDataChanged();
     }
@@ -34,16 +34,12 @@ public class ModelData extends AbstractTableModel{
 
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
-        switch (columnIndex) {
-            case 0:
-                return listData.get(rowIndex).getNomor();
-            case 1:
-                return listData.get(rowIndex).getNama();
-            case 2:
-                return listData.get(rowIndex).getGender();    
-            default:
-                return null;
-        }
+        return switch (columnIndex) {
+            case 0 -> listData.get(rowIndex).getNomor();
+            case 1 -> listData.get(rowIndex).getNama();
+            case 2 -> listData.get(rowIndex).getGender();
+            default -> null;
+        };
     }
     
 }
